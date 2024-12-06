@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px; /* Tambahkan padding di sini sesuai kebutuhan */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.btn-upload, .preview-icon {
+    /* Aturan untuk tombol upload */
+    font-size: 20px;
+    color: #5d6ef3; /* Warna teks tombol */
+    background-color: transparent; /* Latar belakang transparan */
+    border: none; /* Hapus border */
+    cursor: pointer; /* Kursor pointer */
+    padding: 5px 10px; /* Ruang di sekitar tombol */
+    border-radius: 3px; /* Latar belakang bulat */
+    transition: color 0.3s, background-color 0.3s, border-radius 0.3s; /* Transisi efek hover */
+  }
+  
+  .btn-upload:hover, .preview-icon:hover {
+    /* Efek saat tombol dihover */
+    color: white; /* Warna teks saat dihover */
+    background-color: #012970; /* Warna latar belakang saat dihover */
+    border-radius: 50%; /* Mengubah latar belakang menjadi bulat saat dihover */
+  }
+  .badge-lg {
+    font-size: 0.8em; /* Atur ukuran teks badge */
+    padding: 0.5em 1em; /* Sesuaikan ruang di sekitar teks badge */
+  }
